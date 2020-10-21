@@ -1,98 +1,317 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-10-15T11:04:46.659Z",
-        "line": 3,
-        "name": "login with valid data",
+        "start_timestamp": "2020-10-21T14:23:09.730Z",
+        "line": 7,
+        "name": "create new subscriber",
         "description": "",
-        "id": "login-page;login-with-valid-data",
+        "id": "create-new-subscriber-for-admin-portal;create-new-subscriber",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 17192955600,
-              "status": "passed"
+              "duration": 1382000,
+              "status": "skipped"
             },
-            "line": 4,
-            "name": "Launch the browser",
+            "line": 8,
+            "name": "select subscriber and click on the create new subscriber",
             "match": {
-              "location": "Login_Execution.launch_the_browser()"
+              "location": "Createsubscriber.select_subscriber_and_click_on_the_create_new_subscriber()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1222869300,
-              "status": "passed"
+              "duration": 22100,
+              "status": "skipped"
             },
-            "line": 5,
-            "name": "Enter credentials to login",
+            "line": 9,
+            "name": "Enter the subscriber details and click next",
             "match": {
-              "location": "Login_Execution.enter_credentials_to_login(DataTable)"
+              "location": "Createsubscriber.enter_the_subscriber_details_and_click_next()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "jayakumarraju@ettma.com"
-                ]
-              }
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 224544600,
-              "status": "passed"
+              "duration": 12800,
+              "status": "skipped"
             },
-            "line": 7,
-            "name": "Click Next button",
+            "line": 10,
+            "name": "select snaps industry, industry area",
             "match": {
-              "location": "Login_Execution.click_Next_button()"
+              "location": "Createsubscriber.select_snaps_industry_industry_area()"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 235270400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Enter the password",
-            "match": {
-              "location": "Login_Execution.enter_the_password(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Kumar@1989"
-                ]
-              }
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 11045526700,
-              "status": "passed"
+              "duration": 13800,
+              "status": "skipped"
             },
-            "line": 10,
-            "name": "click on the signin button",
+            "line": 11,
+            "name": "select snaps category, section and subsection",
             "match": {
-              "location": "Login_Execution.click_on_the_signin_button()"
+              "location": "Createsubscriber.select_snaps_category_section_and_subsection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "select taxomony and Labels",
+            "match": {
+              "location": "Createsubscriber.select_taxomony_and_Labels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click on the get packages button",
+            "match": {
+              "location": "Createsubscriber.click_on_the_get_packages_button()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-21T14:23:09.755Z",
+        "line": 15,
+        "name": "Select packages and subscription",
+        "description": "",
+        "id": "create-new-subscriber-for-admin-portal;select-packages-and-subscription",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verify packages displayed",
+            "match": {
+              "location": "Createsubscriber.verify_packages_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "select packages",
+            "match": {
+              "location": "Createsubscriber.select_packages()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16300,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "click on the next button",
+            "match": {
+              "location": "Createsubscriber.click_on_the_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14500,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "verify subscription tab",
+            "match": {
+              "location": "Createsubscriber.verify_subscription_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16200,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "enter subscription details",
+            "match": {
+              "location": "Createsubscriber.enter_subscription_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click next button",
+            "match": {
+              "location": "Createsubscriber.click_next_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-21T14:23:09.757Z",
+        "line": 23,
+        "name": "select subscriber user details",
+        "description": "",
+        "id": "create-new-subscriber-for-admin-portal;select-subscriber-user-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13700,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "verify subscriber user screen launched",
+            "match": {
+              "location": "Createsubscriber.verify_subscriber_user_screen_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "click the add user button",
+            "match": {
+              "location": "Createsubscriber.click_the_add_user_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11600,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "enter subscriber details and click on save button",
+            "match": {
+              "location": "Createsubscriber.enter_subscriber_details_and_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11100,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "click next button",
+            "match": {
+              "location": "Createsubscriber.click_next_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-21T14:23:09.759Z",
+        "line": 29,
+        "name": "verify finalize tab",
+        "description": "",
+        "id": "create-new-subscriber-for-admin-portal;verify-finalize-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20800,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "browse file by clicking browse for file",
+            "match": {
+              "location": "Createsubscriber.browse_file_by_clicking_browse_for_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12400,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "select customer paid button",
+            "match": {
+              "location": "Createsubscriber.select_customer_paid_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14200,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "click the finalize button",
+            "match": {
+              "location": "Createsubscriber.click_the_finalize_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
           }
         ]
       }
     ],
-    "name": "Login page",
+    "name": "create new subscriber for admin portal",
     "description": "",
-    "id": "login-page",
+    "id": "create-new-subscriber-for-admin-portal",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/login.feature",
-    "tags": []
+    "uri": "file:src/test/resources/createsubscriber.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

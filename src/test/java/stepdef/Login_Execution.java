@@ -4,16 +4,13 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
 import dataprovider.LoginPage;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import locater.Loginpage;
 
 public class Login_Execution  {
 	
@@ -22,7 +19,7 @@ public class Login_Execution  {
 	
 	@Given("Launch the browser")
 	public void launch_the_browser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jayakumar\\eclipse-workspace\\ettma\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sprit\\git\\Adminportal\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
