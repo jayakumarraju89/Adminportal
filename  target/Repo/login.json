@@ -1,23 +1,44 @@
 [
   {
-    "line": 3,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-21T15:55:21.607Z",
-        "line": 7,
-        "name": "create new subscriber",
+        "start_timestamp": "2020-10-22T05:19:38.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24823352200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create new subscriber",
         "description": "",
-        "id": "create-new-subscriber-for-admin-portal;create-new-subscriber",
+        "id": "create-new-subscriber-in-admin-portal;create-new-subscriber",
+        "after": [
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat stepdef.Createsubscriber.select_subscriber_and_click_on_the_create_new_subscriber(Createsubscriber.java:20)\r\n\tat ✽.select subscriber and click on the create new subscriber(file:src/test/resources/createsubscriber.feature:8)\r\n",
-              "duration": 19601700,
-              "status": "failed"
+              "duration": 6410442700,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 4,
             "name": "select subscriber and click on the create new subscriber",
             "match": {
               "location": "Createsubscriber.select_subscriber_and_click_on_the_create_new_subscriber()"
@@ -26,245 +47,25 @@
           },
           {
             "result": {
-              "duration": 18800,
-              "status": "skipped"
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdef.Createsubscriber.enter_the_subscriber_details_and_click_next(Createsubscriber.java:33)\r\n\tat ✽.Enter the subscriber details and click next(file:src/test/resources/createsubscriber.feature:5)\r\n",
+              "duration": 3894700,
+              "status": "pending"
             },
-            "line": 9,
+            "line": 5,
             "name": "Enter the subscriber details and click next",
             "match": {
               "location": "Createsubscriber.enter_the_subscriber_details_and_click_next()"
             },
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10000,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "select snaps industry, industry area",
-            "match": {
-              "location": "Createsubscriber.select_snaps_industry_industry_area()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8400,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "select snaps category, section and subsection",
-            "match": {
-              "location": "Createsubscriber.select_snaps_category_section_and_subsection()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8100,
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "select taxomony and Labels",
-            "match": {
-              "location": "Createsubscriber.select_taxomony_and_Labels()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8000,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "click on the get packages button",
-            "match": {
-              "location": "Createsubscriber.click_on_the_get_packages_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 12500,
-              "status": "skipped"
-            },
-            "line": 16,
-            "name": "verify packages displayed",
-            "match": {
-              "location": "Createsubscriber.verify_packages_displayed()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8300,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "select packages",
-            "match": {
-              "location": "Createsubscriber.select_packages()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8300,
-              "status": "skipped"
-            },
-            "line": 18,
-            "name": "click on the next button",
-            "match": {
-              "location": "Createsubscriber.click_on_the_next_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8100,
-              "status": "skipped"
-            },
-            "line": 19,
-            "name": "verify subscription tab",
-            "match": {
-              "location": "Createsubscriber.verify_subscription_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8100,
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "enter subscription details",
-            "match": {
-              "location": "Createsubscriber.enter_subscription_details()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8000,
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "click next button",
-            "match": {
-              "location": "Createsubscriber.click_next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8100,
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "verify subscriber user screen launched",
-            "match": {
-              "location": "Createsubscriber.verify_subscriber_user_screen_launched()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9100,
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "click the add user button",
-            "match": {
-              "location": "Createsubscriber.click_the_add_user_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8100,
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "enter subscriber details and click on save button",
-            "match": {
-              "location": "Createsubscriber.enter_subscriber_details_and_click_on_save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8100,
-              "status": "skipped"
-            },
-            "line": 27,
-            "name": "click next button",
-            "match": {
-              "location": "Createsubscriber.click_next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8000,
-              "status": "skipped"
-            },
-            "line": 30,
-            "name": "browse file by clicking browse for file",
-            "match": {
-              "location": "Createsubscriber.browse_file_by_clicking_browse_for_file()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9200,
-              "status": "skipped"
-            },
-            "line": 31,
-            "name": "select customer paid button",
-            "match": {
-              "location": "Createsubscriber.select_customer_paid_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8200,
-              "status": "skipped"
-            },
-            "line": 32,
-            "name": "click the finalize button",
-            "match": {
-              "location": "Createsubscriber.click_the_finalize_button()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          },
-          {
-            "name": "@tag1"
           }
         ]
       }
     ],
-    "name": "create new subscriber for admin portal",
+    "name": "Create new subscriber in admin portal",
     "description": "",
-    "id": "create-new-subscriber-for-admin-portal",
+    "id": "create-new-subscriber-in-admin-portal",
     "keyword": "Feature",
     "uri": "file:src/test/resources/createsubscriber.feature",
-    "tags": [
-      {
-        "name": "@tag",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   }
 ]

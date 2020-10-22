@@ -7,4 +7,4 @@ When Enter credentials to login
 Then Click Next button
 And Enter the password
 |Kumar@1989|
-Then click on the signin button
+And click on the signin button
