@@ -15,9 +15,11 @@ public class Createsubscriber {
 	
 	
 	@Given("select subscriber and click on the create new subscriber")
-	public void select_subscriber_and_click_on_the_create_new_subscriber() {
+	public void select_subscriber_and_click_on_the_create_new_subscriber() throws InterruptedException {
+
 		createsub.getSub_btn().click();
 		createsub.getCreate_btn().click();
+		Thread.sleep(10000);
 		
 	}
 
@@ -51,7 +53,7 @@ public class Createsubscriber {
 		
 	}
 
-	@Given("verify packages displayed")
+	@When("verify packages displayed")
 	public void verify_packages_displayed() {
 		
 		
@@ -87,7 +89,7 @@ public class Createsubscriber {
 		
 	}
 
-	@Given("verify subscriber user screen launched")
+	@When("verify subscriber user screen launched")
 	public void verify_subscriber_user_screen_launched() {
 		
 		

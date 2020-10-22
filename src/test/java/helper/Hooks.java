@@ -27,19 +27,14 @@ public class Hooks {
 		
 		LoginPage login = new LoginPage(driver);
 		
-		//List<String> List = dataTable.asList(String.class);
-		//LoginPage login = new LoginPage(driver);
 	    login.enter_email().sendKeys("TestSuperAdmin@ettma.com");
 	    
-	   // LoginPage login = new LoginPage(driver);
 		login.click_next().click();
 		
-		//List<String> List = dataTable.asList(String.class);
-		//LoginPage login = new LoginPage(driver);
 		login.getPass().sendKeys("Karmwave2020");
 		
-		//LoginPage login = new LoginPage(driver);
 		Thread.sleep(5000);
+		
 		login.click_signin().click();
 		Thread.sleep(2000);
 		if (driver.getPageSource().contains("Stay signed in?")) {
@@ -53,7 +48,7 @@ public class Hooks {
 	
 	@After
 	public static void afterScenario() {
-		driver.close();
+	//	driver.close();
 		
 	}
 

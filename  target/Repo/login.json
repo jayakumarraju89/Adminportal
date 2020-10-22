@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-10-21T14:23:09.730Z",
+        "start_timestamp": "2020-10-21T15:55:21.607Z",
         "line": 7,
         "name": "create new subscriber",
         "description": "",
@@ -13,8 +13,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1382000,
-              "status": "skipped"
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat stepdef.Createsubscriber.select_subscriber_and_click_on_the_create_new_subscriber(Createsubscriber.java:20)\r\n\tat ✽.select subscriber and click on the create new subscriber(file:src/test/resources/createsubscriber.feature:8)\r\n",
+              "duration": 19601700,
+              "status": "failed"
             },
             "line": 8,
             "name": "select subscriber and click on the create new subscriber",
@@ -25,7 +26,7 @@
           },
           {
             "result": {
-              "duration": 22100,
+              "duration": 18800,
               "status": "skipped"
             },
             "line": 9,
@@ -37,7 +38,7 @@
           },
           {
             "result": {
-              "duration": 12800,
+              "duration": 10000,
               "status": "skipped"
             },
             "line": 10,
@@ -49,7 +50,7 @@
           },
           {
             "result": {
-              "duration": 13800,
+              "duration": 8400,
               "status": "skipped"
             },
             "line": 11,
@@ -61,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 11900,
+              "duration": 8100,
               "status": "skipped"
             },
             "line": 12,
@@ -73,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 12400,
+              "duration": 8000,
               "status": "skipped"
             },
             "line": 13,
@@ -82,29 +83,10 @@
               "location": "Createsubscriber.click_on_the_get_packages_button()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
           },
           {
-            "name": "@tag1"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-10-21T14:23:09.755Z",
-        "line": 15,
-        "name": "Select packages and subscription",
-        "description": "",
-        "id": "create-new-subscriber-for-admin-portal;select-packages-and-subscription",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
             "result": {
-              "duration": 18700,
+              "duration": 12500,
               "status": "skipped"
             },
             "line": 16,
@@ -112,11 +94,11 @@
             "match": {
               "location": "Createsubscriber.verify_packages_displayed()"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 18200,
+              "duration": 8300,
               "status": "skipped"
             },
             "line": 17,
@@ -128,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 16300,
+              "duration": 8300,
               "status": "skipped"
             },
             "line": 18,
@@ -140,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 14500,
+              "duration": 8100,
               "status": "skipped"
             },
             "line": 19,
@@ -152,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 16200,
+              "duration": 8100,
               "status": "skipped"
             },
             "line": 20,
@@ -164,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 17800,
+              "duration": 8000,
               "status": "skipped"
             },
             "line": 21,
@@ -173,26 +155,10 @@
               "location": "Createsubscriber.click_next_button()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-10-21T14:23:09.757Z",
-        "line": 23,
-        "name": "select subscriber user details",
-        "description": "",
-        "id": "create-new-subscriber-for-admin-portal;select-subscriber-user-details",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 13700,
+              "duration": 8100,
               "status": "skipped"
             },
             "line": 24,
@@ -200,11 +166,11 @@
             "match": {
               "location": "Createsubscriber.verify_subscriber_user_screen_launched()"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 11800,
+              "duration": 9100,
               "status": "skipped"
             },
             "line": 25,
@@ -216,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 11600,
+              "duration": 8100,
               "status": "skipped"
             },
             "line": 26,
@@ -228,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 11100,
+              "duration": 8100,
               "status": "skipped"
             },
             "line": 27,
@@ -237,26 +203,10 @@
               "location": "Createsubscriber.click_next_button()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-10-21T14:23:09.759Z",
-        "line": 29,
-        "name": "verify finalize tab",
-        "description": "",
-        "id": "create-new-subscriber-for-admin-portal;verify-finalize-tab",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 20800,
+              "duration": 8000,
               "status": "skipped"
             },
             "line": 30,
@@ -268,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 12400,
+              "duration": 9200,
               "status": "skipped"
             },
             "line": 31,
@@ -280,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 14200,
+              "duration": 8200,
               "status": "skipped"
             },
             "line": 32,
@@ -294,6 +244,9 @@
         "tags": [
           {
             "name": "@tag"
+          },
+          {
+            "name": "@tag1"
           }
         ]
       }
