@@ -3,27 +3,27 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-22T05:19:38.220Z",
+        "start_timestamp": "2020-10-22T12:56:26.475Z",
         "before": [
           {
             "result": {
-              "duration": 24823352200,
-              "status": "passed"
+              "duration": 714200,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.beforeScenario()"
             }
           }
         ],
-        "line": 3,
-        "name": "Create new subscriber",
+        "line": 4,
+        "name": "create new subscriber",
         "description": "",
         "id": "create-new-subscriber-in-admin-portal;create-new-subscriber",
         "after": [
           {
             "result": {
-              "duration": 84600,
-              "status": "passed"
+              "duration": 15000,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.afterScenario()"
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6410442700,
-              "status": "passed"
+              "duration": 348100,
+              "status": "skipped"
             },
-            "line": 4,
+            "line": 5,
             "name": "select subscriber and click on the create new subscriber",
             "match": {
               "location": "Createsubscriber.select_subscriber_and_click_on_the_create_new_subscriber()"
@@ -47,16 +47,170 @@
           },
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdef.Createsubscriber.enter_the_subscriber_details_and_click_next(Createsubscriber.java:33)\r\n\tat ✽.Enter the subscriber details and click next(file:src/test/resources/createsubscriber.feature:5)\r\n",
-              "duration": 3894700,
-              "status": "pending"
+              "status": "undefined"
             },
-            "line": 5,
+            "line": 6,
             "name": "Enter the subscriber details and click next",
-            "match": {
-              "location": "Createsubscriber.enter_the_subscriber_details_and_click_next()"
-            },
+            "match": {},
             "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "select snaps industry, industry area",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "select snaps category, section and subsection",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "select taxomony and Labels",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "click on the get packages button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "verify packages displayed",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "select packages",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "click on the next button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "verify subscription tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "enter subscription details",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "click next button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "verify subscriber user screen launched",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "click the add user button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "enter subscriber details and click on save button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "click next button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "browse file by clicking browse for file",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "select customer paid button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "click the finalize button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
           }
         ]
       }
