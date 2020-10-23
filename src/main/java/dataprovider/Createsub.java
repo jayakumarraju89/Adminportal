@@ -32,34 +32,37 @@ public class Createsub {
 	@FindBy(how = How.XPATH, using ="//mat-step-header[@id='cdk-step-label-3-0']")
 	protected WebElement sub_det;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-95']")
+	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-10']")
 	protected WebElement first_name;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-96']")
+	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-11']")
 	protected WebElement last_name;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-97']")
+	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-12']")
 	protected WebElement company_name;
 	
 	@FindBy(how = How.XPATH, using ="//textarea[@id='Address']")
 	protected WebElement company_address;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-103']")
+	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-18']")
 	protected WebElement phone_number;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-104']")
+	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-19']")
 	protected WebElement email;
 	
 	@FindBy(how = How.XPATH, using ="(//span[@class='mat-button-wrapper'])[25]")
 	protected WebElement nxt_button1;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-108']")
+	@FindBy(how = How.XPATH, using ="(//div[@class='tags-column-header'])[1]")
+	protected WebElement snap_head;	
+
+	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-26']")
 	protected WebElement snap_search;
 	
-	@FindBy(how = How.XPATH, using ="//mat-pseudo-checkbox[@class='mat-pseudo-checkbox ng-star-inserted mat-pseudo-checkbox-checked']")
+	@FindBy(how = How.XPATH, using ="(//mat-pseudo-checkbox[@class='mat-pseudo-checkbox ng-star-inserted'])[1]")
 	protected WebElement snap_checkbox;
 	
-	@FindBy(how = How.XPATH, using ="(//span[@class='mat-button-wrapper'])[26]")
+	@FindBy(how = How.XPATH, using ="((//button[@class='mat-focus-indicator mat-button mat-raised-button mat-button-base mat-primary'])[2]")
 	protected WebElement get_pack;
 	
 	@FindBy(how = How.XPATH, using ="(//div[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin'])[1]")
@@ -138,6 +141,10 @@ public class Createsub {
 
 	public WebElement getNxt_button1() {
 		return nxt_button1;
+	}
+	
+	public WebElement getSnap_head() {
+		return snap_head;
 	}
 
 	public WebElement getSnap_search() {
