@@ -48,7 +48,8 @@ public class Hooks {
 	
 	@After
 	public static void afterScenario() {
-	//	driver.close();
+	//	JVMReport.GenerateJVMReport("target\\Repo\\Createsubscriber.json");
+		driver.close();
 		
 	}
 

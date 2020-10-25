@@ -101,13 +101,13 @@ public class Createsub {
 	@FindBy(how = How.XPATH, using ="//*[@id=\"cdk-step-content-0-2\"]/div/button[2]")
 	protected WebElement nxt_button4;	
 
-	@FindBy(how = How.XPATH, using ="//label[@for='fileDropRef']")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"cdk-step-content-0-3\"]/div[1]/app-dndfileupload/div/label")
 	protected WebElement browse_btn ;
 	
 	@FindBy(how = How.XPATH, using ="//div[@class='mat-checkbox-inner-container']")
 	protected WebElement paid_checkbox ;
 	
-	@FindBy(how = How.XPATH, using ="(//span[@class='mat-button-wrapper'])[38]")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"cdk-step-content-0-3\"]/div[2]/button[2]")
 	protected WebElement finalize_btn ;
 
 	public WebElement getCreate_btn() {

@@ -9,8 +9,7 @@ Feature: Create new subscriber in admin portal
     When select packages and click next
     And verify subscription tab and enter subscription details then click next button
      
-    When verify subscriber user screen launched and click the add user button
-    And enter subscriber details and click on save button then next
+    When verify subscriber user screen launched and enter subscriber details then click the add user button
     When verify Finalize tab and browse file by clicking browse for file
     Then select customer paid button and click the finalize button
      
