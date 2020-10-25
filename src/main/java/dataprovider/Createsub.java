@@ -26,7 +26,7 @@ public class Createsub {
 		return sub_btn;
 	}
 	
-	@FindBy(how = How.XPATH, using ="(//mat-icon[@class='mat-icon notranslate material-icons mat-icon-no-color']) [4]")
+	@FindBy(how = How.XPATH, using ="//button[@class='mat-focus-indicator add-new-button ng-tns-c228-3 mat-button mat-raised-button mat-fab mat-button-base mat-accent']")
 	protected WebElement create_btn;
 	
 	@FindBy(how = How.XPATH, using ="//mat-step-header[@id='cdk-step-label-3-0']")
@@ -77,27 +77,30 @@ public class Createsub {
 	@FindBy(how = How.XPATH, using ="//mat-tab-body/div[1]/div[1]/div[1]/mat-form-field[3]/div[1]/div[1]/div[2]/mat-datepicker-toggle[1]/button[1]/span[1]/*[1]")
 	protected WebElement sub_calendar2;
 	
-	@FindBy(how = How.XPATH, using ="(//span[@class='mat-button-wrapper'])[29]")
+	@FindBy(how = How.XPATH, using ="(//div[@class='mat-button-focus-overlay'])[29]")
 	protected WebElement nxt_button3 ;
 	
-	@FindBy(how = How.XPATH, using ="(//mat-icon[@class='mat-icon notranslate material-icons mat-icon-no-color'])[15]")
+	@FindBy(how = How.XPATH, using ="(//div[@class='mat-button-focus-overlay'])[30]")
 	protected WebElement createnew_user ;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-32']")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"mat-input-27\"]")
 	protected WebElement user_email ;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-33']")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"mat-input-28\"]")
 	protected WebElement user_firstname ;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-34']")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"mat-input-29\"]")
 	protected WebElement user_lastname ;
 	
-	@FindBy(how = How.XPATH, using ="//input[@id='mat-input-35']")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"mat-input-30\"]")
 	protected WebElement user_phone ;
 	
-	@FindBy(how = How.XPATH, using ="(//button[@class='mat-focus-indicator mat-button mat-raised-button mat-button-base mat-primary'])[5]")
+	@FindBy(how = How.XPATH, using ="//*[@id=\"mat-dialog-1\"]/app-subscriber-user-dailog/mat-dialog-content/mat-card/mat-card-content/form/mat-dialog-actions/button[1]/span")
 	protected WebElement user_save ;
 	
+	@FindBy(how = How.XPATH, using ="//*[@id=\"cdk-step-content-0-2\"]/div/button[2]")
+	protected WebElement nxt_button4;	
+
 	@FindBy(how = How.XPATH, using ="//label[@for='fileDropRef']")
 	protected WebElement browse_btn ;
 	
@@ -201,6 +204,10 @@ public class Createsub {
 
 	public WebElement getUser_save() {
 		return user_save;
+	}
+	
+	public WebElement getNxt_button4() {
+		return nxt_button4;
 	}
 
 	public WebElement getBrowse_btn() {
