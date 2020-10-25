@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-25T14:36:10.332Z",
+        "start_timestamp": "2020-10-25T15:17:54.272Z",
         "before": [
           {
             "result": {
-              "duration": 23651986200,
+              "duration": 24395880400,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 51310300,
+              "duration": 46391800,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2609095900,
+              "duration": 2620880100,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 6965247600,
+              "duration": 6962460500,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 3099312900,
+              "duration": 3133967600,
               "status": "passed"
             },
             "line": 7,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 640799100,
+              "duration": 649024700,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 4260956100,
+              "duration": 4278210700,
               "status": "passed"
             },
             "line": 10,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 2631056600,
+              "duration": 2618911300,
               "status": "passed"
             },
             "line": 12,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 32211700,
+              "duration": 31640400,
               "status": "passed"
             },
             "line": 13,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 7206477300,
+              "duration": 7171019800,
               "status": "passed"
             },
             "line": 14,
@@ -142,6 +142,124 @@
     "id": "create-new-subscriber-in-admin-portal",
     "keyword": "Feature",
     "uri": "file:src/test/resources/createsubscriber.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-25T15:18:46.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22674717000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "login with valid data",
+        "description": "",
+        "id": "login-page;login-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 25853500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13551781500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser",
+            "match": {
+              "location": "Login_Execution.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76485800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter credentials to login",
+            "match": {
+              "location": "Login_Execution.enter_credentials_to_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jayakumarraju@ettma.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54640500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Next button",
+            "match": {
+              "location": "Login_Execution.click_Next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57031800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the password",
+            "match": {
+              "location": "Login_Execution.enter_the_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Kumar@1989"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9247409500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on the signin button",
+            "match": {
+              "location": "Login_Execution.click_on_the_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
     "tags": []
   }
 ]
