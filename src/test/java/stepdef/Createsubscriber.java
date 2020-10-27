@@ -96,7 +96,7 @@ public class Createsubscriber {
 		WebElement cal1 = driver.findElement(By.xpath("(//button[@aria-label='Open calendar'])[3]"));
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("arguments[0].click()", cal1);
-		WebElement date1 = driver.findElement(By.xpath("//td[@aria-label='October 25, 2020']"));
+		WebElement date1 = driver.findElement(By.xpath("//td[@aria-label='October 26, 2020']"));
 		jse.executeScript("arguments[0].click()", date1);
 		WebElement cal2 = driver.findElement(By.xpath("(//button[@aria-label='Open calendar'])[4]"));
 		jse.executeScript("arguments[0].click()", cal2);
@@ -121,7 +121,7 @@ public class Createsubscriber {
 		createsub.getUser_email().sendKeys("kite11@gmail.com");
 		createsub.getUser_firstname().sendKeys("eight");
 		createsub.getUser_lastname().sendKeys("orc");
-		createsub.getUser_phone().sendKeys("11245558787");
+		createsub.getUser_phone().sendKeys("8145552906");
 		createsub.getUser_save().click();
 		Thread.sleep(2000);
 		createsub.getNxt_button4().click();

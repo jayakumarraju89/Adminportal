@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-25T15:17:54.272Z",
+        "start_timestamp": "2020-10-26T14:35:48.283Z",
         "before": [
           {
             "result": {
-              "duration": 24395880400,
+              "duration": 24891959200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 46391800,
+              "duration": 69348900,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2620880100,
+              "duration": 2669955200,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 6962460500,
+              "duration": 7188880700,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 3133967600,
+              "duration": 3135450500,
               "status": "passed"
             },
             "line": 7,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 649024700,
+              "duration": 676399100,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 4278210700,
+              "duration": 4458112500,
               "status": "passed"
             },
             "line": 10,
@@ -95,8 +95,9 @@
           },
           {
             "result": {
-              "duration": 2618911300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton _ngcontent-xnf-c225\u003d\"\" mat-button\u003d\"\" mat-raised-button\u003d\"\" cdkfocusinitial\u003d\"\" color\u003d\"primary\" class\u003d\"mat-focus-indicator mat-button mat-raised-button mat-button-base mat-primary\"\u003e...\u003c/button\u003e is not clickable at point (802, 487). Other element would receive the click: \u003cmat-card _ngcontent-xnf-c223\u003d\"\" class\u003d\"mat-card mat-focus-indicator\"\u003e...\u003c/mat-card\u003e\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-LA2C2MS\u0027, ip: \u0027172.16.25.138\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\sprit\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d27f28a9c6d976520c23d0e058192036\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat stepdef.Createsubscriber.verify_subscriber_user_screen_launched_and_enter_subscriber_details_then_click_the_add_user_button(Createsubscriber.java:127)\r\n\tat ✽.verify subscriber user screen launched and enter subscriber details then click the add user button(file:src/test/resources/createsubscriber.feature:12)\r\n",
+              "duration": 3759251700,
+              "status": "failed"
             },
             "line": 12,
             "name": "verify subscriber user screen launched and enter subscriber details then click the add user button",
@@ -107,8 +108,8 @@
           },
           {
             "result": {
-              "duration": 31640400,
-              "status": "passed"
+              "duration": 21600,
+              "status": "skipped"
             },
             "line": 13,
             "name": "verify Finalize tab and browse file by clicking browse for file",
@@ -119,8 +120,8 @@
           },
           {
             "result": {
-              "duration": 7171019800,
-              "status": "passed"
+              "duration": 11400,
+              "status": "skipped"
             },
             "line": 14,
             "name": "select customer paid button and click the finalize button",
@@ -142,124 +143,6 @@
     "id": "create-new-subscriber-in-admin-portal",
     "keyword": "Feature",
     "uri": "file:src/test/resources/createsubscriber.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-10-25T15:18:46.196Z",
-        "before": [
-          {
-            "result": {
-              "duration": 22674717000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeScenario()"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "login with valid data",
-        "description": "",
-        "id": "login-page;login-with-valid-data",
-        "after": [
-          {
-            "result": {
-              "duration": 25853500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterScenario()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 13551781500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Launch the browser",
-            "match": {
-              "location": "Login_Execution.launch_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 76485800,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Enter credentials to login",
-            "match": {
-              "location": "Login_Execution.enter_credentials_to_login(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "jayakumarraju@ettma.com"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 54640500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Click Next button",
-            "match": {
-              "location": "Login_Execution.click_Next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 57031800,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Enter the password",
-            "match": {
-              "location": "Login_Execution.enter_the_password(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Kumar@1989"
-                ]
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 9247409500,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click on the signin button",
-            "match": {
-              "location": "Login_Execution.click_on_the_signin_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "Login page",
-    "description": "",
-    "id": "login-page",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/login.feature",
     "tags": []
   }
 ]
